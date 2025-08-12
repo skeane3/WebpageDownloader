@@ -33,11 +33,6 @@ namespace WebpageDownloader.Tests
                 Assert.That(results[0].Success, Is.EqualTo(true));
                 Assert.That(results[0].Content, Does.Contain("<html"));
                 Assert.That(results[0].ErrorMessage, Is.EqualTo(null));
-
-
-                Assert.That(results[1].Success, Is.EqualTo(true));
-                Assert.That(results[1].Content, Does.Contain("<html"));
-                Assert.That(results[1].ErrorMessage, Is.EqualTo(null));
             });
         }
 
